@@ -42,17 +42,15 @@ body {
   left: 20px;
   margin: 0;
   opacity: 0;
-  transition: opacity 0.3s ease-out;
 }
 
 .slide:hover {
-  flex: 30;
-  transition: flex 0.3s ease-in;
+  flex: 10;
 }
 
 .slide:hover h3 {
   opacity: 1;
-  transition: opacity 0.3s ease-in;
+  transition: opacity 0.3s ease-in 0.4s;
 }
 
 
