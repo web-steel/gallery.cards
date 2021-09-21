@@ -32,6 +32,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
+  transition: all 0.5s ease-in-out;
 }
 
 .slide h3 {
@@ -40,6 +41,18 @@ body {
   bottom: 20px;
   left: 20px;
   margin: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.slide:hover {
+  flex: 30;
+  transition: flex 0.3s ease-in;
+}
+
+.slide:hover h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
 }
 
 
